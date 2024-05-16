@@ -4,6 +4,7 @@
     "references": [],
     "includePlatforms": [
         "Android",
+        "Editor",
         "iOS"
     ],
     "excludePlatforms": [],

@@ -1,0 +1,3 @@
+git pull下來後照著說明圖步驟就可以build android執行檔到手機上重現
+
+把unity專案中的DBPlayer.cs那份檔案砍掉再重新build出來的執行檔就不會crash

@@ -1,22 +1,89 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <linker>
+  <assembly fullname="Realm">
+    <type fullname="MongoDB.Bson.IO.IBsonReader" preserve="all" />
+    <type fullname="MongoDB.Bson.IO.IBsonWriter" preserve="all" />
+    <type fullname="MongoDB.Bson.Serialization.BsonDeserializationContext" preserve="all" />
+    <type fullname="MongoDB.Bson.Serialization.BsonSerializationArgs" preserve="all" />
+    <type fullname="MongoDB.Bson.Serialization.BsonSerializationContext" preserve="all" />
+    <type fullname="MongoDB.Bson.Serialization.BsonSerializer" preserve="all" />
+    <type fullname="MongoDB.Bson.Serialization.IBsonSerializerExtensions" preserve="all" />
+    <type fullname="MongoDB.Bson.Serialization.IBsonSerializer`1" preserve="all" />
+    <type fullname="Realms.CollectionExtensions" preserve="all" />
+    <type fullname="Realms.DynamicObjectApi" preserve="all" />
+    <type fullname="Realms.GeneratedAttribute" preserve="all" />
+    <type fullname="Realms.IRealmAccessor" preserve="all" />
+    <type fullname="Realms.IRealmObject" preserve="all" />
+    <type fullname="Realms.IRealmObjectBase" preserve="all" />
+    <type fullname="Realms.ISettableManagedAccessor" preserve="all" />
+    <type fullname="Realms.IndexType" preserve="all" />
+    <type fullname="Realms.InvalidObject" preserve="all" />
+    <type fullname="Realms.ManagedAccessor" preserve="all" />
+    <type fullname="Realms.MapToAttribute" preserve="all" />
+    <type fullname="Realms.PreserveAttribute" preserve="all" />
+    <type fullname="Realms.PrimaryKeyAttribute" preserve="all" />
+    <type fullname="Realms.QueryArgument" preserve="all" />
+    <type fullname="Realms.Realm" preserve="all" />
+    <type fullname="Realms.RealmValue" preserve="all" />
+    <type fullname="Realms.RealmValueType" preserve="all" />
+    <type fullname="Realms.RequiredAttribute" preserve="all" />
+    <type fullname="Realms.Schema.ObjectSchema" preserve="all" />
+    <type fullname="Realms.Schema.ObjectSchema/Builder" preserve="all" />
+    <type fullname="Realms.Schema.ObjectSchema/ObjectType" preserve="all" />
+    <type fullname="Realms.Schema.Property" preserve="all" />
+    <type fullname="Realms.Schema.RealmSchema" preserve="all" />
+    <type fullname="Realms.Serialization.RealmObjectSerializer" preserve="all" />
+    <type fullname="Realms.Serialization.RealmObjectSerializerBase" preserve="all" />
+    <type fullname="Realms.Serialization.RealmObjectSerializerBase`1" preserve="all" />
+    <type fullname="Realms.UnmanagedAccessor" preserve="all" />
+    <type fullname="Realms.Weaving.IRealmObjectHelper" preserve="all" />
+    <type fullname="Realms.WovenAssemblyAttribute" preserve="all" />
+    <type fullname="Realms.WovenAttribute" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.CoreModule">
     <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
   </assembly>
   <assembly fullname="netstandard">
+    <type fullname="System.Action`1" preserve="all" />
     <type fullname="System.Array" preserve="all" />
+    <type fullname="System.Attribute" preserve="all" />
+    <type fullname="System.AttributeTargets" preserve="all" />
+    <type fullname="System.AttributeUsageAttribute" preserve="all" />
     <type fullname="System.Byte" preserve="all" />
     <type fullname="System.CodeDom.Compiler.GeneratedCodeAttribute" preserve="all" />
+    <type fullname="System.Collections.Generic.ICollection`1" preserve="all" />
+    <type fullname="System.Collections.Generic.IDictionary`2" preserve="all" />
+    <type fullname="System.Collections.Generic.IEnumerable`1" preserve="all" />
+    <type fullname="System.Collections.Generic.IList`1" preserve="all" />
+    <type fullname="System.Collections.Generic.ISet`1" preserve="all" />
+    <type fullname="System.Collections.Generic.List`1" preserve="all" />
     <type fullname="System.ComponentModel.EditorBrowsableAttribute" preserve="all" />
     <type fullname="System.ComponentModel.EditorBrowsableState" preserve="all" />
+    <type fullname="System.ComponentModel.INotifyPropertyChanged" preserve="all" />
+    <type fullname="System.ComponentModel.PropertyChangedEventArgs" preserve="all" />
+    <type fullname="System.ComponentModel.PropertyChangedEventHandler" preserve="all" />
+    <type fullname="System.DateTimeOffset" preserve="all" />
+    <type fullname="System.Delegate" preserve="all" />
     <type fullname="System.Diagnostics.DebuggableAttribute" preserve="all" />
     <type fullname="System.Diagnostics.DebuggableAttribute/DebuggingModes" preserve="all" />
+    <type fullname="System.InvalidOperationException" preserve="all" />
+    <type fullname="System.MissingMemberException" preserve="all" />
+    <type fullname="System.Nullable`1" preserve="all" />
     <type fullname="System.Object" preserve="all" />
+    <type fullname="System.Reflection.IReflectableType" preserve="all" />
+    <type fullname="System.Reflection.TypeInfo" preserve="all" />
+    <type fullname="System.Runtime.CompilerServices.CallerMemberNameAttribute" preserve="all" />
     <type fullname="System.Runtime.CompilerServices.CompilationRelaxationsAttribute" preserve="all" />
     <type fullname="System.Runtime.CompilerServices.CompilerGeneratedAttribute" preserve="all" />
     <type fullname="System.Runtime.CompilerServices.RuntimeCompatibilityAttribute" preserve="all" />
     <type fullname="System.Runtime.CompilerServices.RuntimeHelpers" preserve="all" />
+    <type fullname="System.Runtime.Serialization.IgnoreDataMemberAttribute" preserve="all" />
     <type fullname="System.RuntimeFieldHandle" preserve="all" />
+    <type fullname="System.RuntimeTypeHandle" preserve="all" />
+    <type fullname="System.String" preserve="all" />
+    <type fullname="System.Threading.Interlocked" preserve="all" />
+    <type fullname="System.Type" preserve="all" />
     <type fullname="System.ValueType" preserve="all" />
+    <type fullname="System.Xml.Serialization.XmlIgnoreAttribute" preserve="all" />
   </assembly>
 </linker>
